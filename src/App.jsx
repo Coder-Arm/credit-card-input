@@ -64,7 +64,7 @@ function App() {
     value={value}
     onChange={(e) => handleInputChange(e.target.value,idx)}
     onKeyDown={(e) => handleKeyDown(e.target.value,idx,e)}
-    onPaste={handlePaste}
+    // onPaste={handlePaste}
     />
   })
   }
